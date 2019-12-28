@@ -1,0 +1,31 @@
+{
+  "name": "nathandunn/gcs-url-generator",
+  "description": "Google Cloud Storage URL Generator for spatie/laravel-medialibrary.",
+  "license": "MIT",
+  "keywords": [],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Nathan Dunn",
+      "email": "github@nathandunn.uk",
+      "role": "Developer",
+      "homepage": "https://nathandunn.uk"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "spatie/laravel-medialibrary": "^7.17",
+    "superbalist/laravel-google-cloud-storage": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "NathanDunn\\UrlGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
