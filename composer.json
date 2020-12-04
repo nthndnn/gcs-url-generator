@@ -13,8 +13,8 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0",
-    "spatie/laravel-medialibrary": "^7.17",
+    "php": "^7.3.0 || ^8.0",
+    "spatie/laravel-medialibrary": "^9.4",
     "superbalist/laravel-google-cloud-storage": "^2.2"
   },
   "autoload": {
